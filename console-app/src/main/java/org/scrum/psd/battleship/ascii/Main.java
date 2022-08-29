@@ -33,8 +33,10 @@ public class Main {
         System.out.println(colorize(" \\_________________________________________________________________________|", MAGENTA_TEXT()));
         System.out.println("");
 
+        System.out.println(colorize("Initializing Game.."));
         InitializeGame();
 
+        System.out.println(colorize("Starting Game.."));
         StartGame();
     }
 
